@@ -39,6 +39,8 @@ option1.addEventListener("click",function(){
         generate_equa();
     }
     else{
+        pointsval-=1;
+        points.innerHTML=pointsval;
         audio.play();
         
     }
@@ -51,6 +53,8 @@ option2.addEventListener("click",function(){
         generate_equa();
     }
     else{
+        pointsval-=1;
+        points.innerHTML=pointsval;
         audio.play();
         
     }
@@ -63,6 +67,8 @@ option3.addEventListener("click",function(){
         generate_equa();
     }
     else{
+        pointsval-=1;
+        points.innerHTML=pointsval;
         audio.play();
         
     }
